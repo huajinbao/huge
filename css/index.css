@@ -1,0 +1,214 @@
+.user_number{
+    font-size: 18px;
+    text-align: center;
+    background-color: #F8F8FA;
+    padding: 20px;
+    position: relative;
+}
+.triangle-up{
+    width: 0;
+    height: 0;
+    border-left: 16px solid transparent;
+    border-right: 16px solid transparent;
+    border-bottom: 16px solid #E44A3C;
+    position: absolute;
+    left: 50%;
+    margin-left: -8px;
+    bottom: 0;
+}
+.advantage{
+    margin-top: 50px;
+    text-align: center;
+}
+.advantage h2{
+    font-size: 25px;
+    color: #353535;
+    margin-bottom: 20px;
+}
+.advantage p{
+    line-height: 20px;
+}
+
+.red_underline{
+    height: 2px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    background-color: #E44A3C;
+}
+.black_underline{
+    height: 2px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    background-color: #565656;
+}
+.adv_icon{
+    padding: 0 20px;
+}
+.adv_icon h4{
+    font-size: 18px;
+    color: #353535;
+    margin-bottom: 20px;
+}
+.adv_icon p{
+    line-height: 20px;
+}
+.bg_gray{
+    background-color: #EEEEF1;
+}
+.pro_list{
+    display: inline-block;
+    margin-bottom: 30px;
+}
+.pro_list li{
+    float: left;
+    margin:0 15px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid transparent;
+}
+.pro_list li:hover{
+    color:  #E44A3C;
+    border-color: #E44A3C;
+}
+.over_hidden>div{
+    overflow: hidden;
+}
+.half-mask {
+    padding: 10%;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    transition: all 200ms;
+}
+.half-mask h4{
+    padding-bottom: 15px;
+    color: #fff;
+}
+.half-mask span{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color:#2A2A2A;
+}
+.half-mask span:hover{
+    background-color:#E44A3C ;
+}
+.half-mask:hover{
+    opacity: 1;
+}
+.mask_icon{
+    position: absolute;
+    bottom: 10%;
+    right: 10%;
+}
+.search_icon{
+    background:url("../Images/sprite.png") no-repeat -66px 14px;
+}
+.link_icon{
+    background:url("../Images/sprite.png") no-repeat -26px 14px;
+}
+.about_us{
+    background: url("../Images/bg01.jpg") repeat;
+}
+.about_us .advantage h2{
+    color: #fff;
+}
+.about_us .adv_icon h4{
+    color: #fff;
+}
+.check_more{
+    padding-top: 40px;
+    padding-bottom: 80px;
+}
+.check_more button{
+    background-color: #393939;
+    color: #ffffff;
+    padding:10px 50px;
+}
+.check_more button:hover{
+    color: #ffffff;
+}
+.btn:hover,
+.btn:focus,
+.btn.focus{
+    color: #ffffff;
+}
+.about_icon{
+    display: inline-block;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    margin: 30px auto;
+}
+.about_icon:hover{
+    background-color:#E44A3C;
+}
+.come_icon{
+    background: #565656 url("../Images/sprite.png") no-repeat 19px -77px;
+}
+.spirit_icon{
+    background: #565656 url("../Images/sprite.png") no-repeat 18px -167px;
+}
+.connect_icon{
+    background: #565656 url("../Images/sprite.png") no-repeat 20px -249px;
+}
+.service_icon{
+    background: #565656 url("../Images/sprite.png") no-repeat 18px -329px;
+}
+.news{
+    margin-top: 30px;
+    margin-bottom: 120px;
+}
+.news h4{
+    padding-left: 15px;
+    line-height: 20px;
+    font-size: 14px;
+    margin-bottom: 12px;
+    background: url("../Images/sprite.png") no-repeat -495px 8px;
+}
+.news_padding{
+    padding-bottom: 40px;
+    padding-right: 30px;
+}
+.banner{
+
+
+
+    padding: 12px 0 10px;
+}
+.move_icon{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 2px;
+    text-align: center;
+    background-color: #393939;
+    /*background-color: rgba(0, 0, 0, 0.7);*/
+}
+
+#banner_box{
+    display: inline-block;
+    overflow:hidden;
+}
+
+
+#banner_imgs {
+    display: inline-block;
+    height: 30px;
+    position:relative
+}
+#banner_imgs li{
+    float:left;
+    z-index:0;
+}
+#banner_imgs  img{
+    display: block;
+    height: auto;
+}
+
+
+

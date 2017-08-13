@@ -1,0 +1,29 @@
+.pruduct_details{
+    margin-bottom: 120px;
+}
+.pruduct_details>li{
+    font-size: 14px;
+    padding: 25px;
+
+    line-height: 20px;
+    border-bottom: 1px solid #ddd;
+}
+.pruduct_details>li h4{
+    line-height: 20px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #363636;
+
+}
+
+.left_padding>li.dark_gray{
+    background-color: #94969A;
+    color: #fff;
+}
+.bg_gray{
+    background-color: #EEEEF1;
+}
+.left_padding>li{
+    padding-left: 36px;
+    background: url("../Images/sprite.png") no-repeat  -477px -94px;
+}

@@ -1,0 +1,242 @@
+body{
+    font:12px "microsoft yahei",Arial,Helvetica,sans-serif;
+    color:#666;
+    margin:0;
+    padding:0;
+    background-color: #fff;
+}
+a{
+    color:#666;
+    text-decoration:none;
+}
+a:hover{
+    color:#E44A3C;
+    text-decoration:none;
+}
+h1,h2,h3,h4,h5,h6,p,ul,ol,dl,dd{
+    margin:0;
+    padding:0;
+    list-style:none;
+}
+img{
+    vertical-align: bottom;
+}
+header{
+    padding: 15px 0;
+    line-height: 20px;
+    background-color:#363636;
+}
+
+.welcome li{
+    float: left;
+    margin-right: 50px;
+}
+.welcome li s{
+    display: inline-block;
+    position:relative;
+    top: 2px;
+    height: 15px;
+    width: 25px;
+    background: url("../Images/sprite.png") no-repeat 0 0;
+}
+.welcome li:last-child s{
+    height: 16px;
+    width: 20px;
+    top: 3px;
+    background: url("../Images/sprite.png") no-repeat 0 -18px;
+}
+.nav_border{
+    height: 2px;
+    background-color: #dddddd;
+}
+nav{
+    height: 94px;
+    z-index: 1000;
+}
+#myCollapse ul{
+    margin-top: 20px;
+}
+#myCollapse input{
+    box-sizing: border-box;
+    padding: 0 15px;
+    width: 180px;
+    height: 26px;
+    border: 1px solid #ddd;
+    border-radius: 13px;
+    margin: 10px 0px
+}
+#myCollapse input:focus{
+     outline: none;
+ }
+
+#slider {
+    width: 100%;
+    height: auto;
+    position:relative;
+    overflow:hidden;
+}
+#slider #imgs {
+    width: 100%;
+    position:relative
+}
+#slider #imgs li{
+    float:left;
+    z-index:0;
+}
+#slider #imgs  img{
+    display: block;
+    height: auto;
+}
+#slider #indexs {
+    height: 2px;
+    width: 100%;
+}
+
+#slider #indexs li {
+    float: left;
+    width: 50%;
+    height: 2px;
+    display: inline-block;
+    background: #919191;
+    cursor: pointer;
+}
+#slider #indexs li:hover,#slider #indexs li.hover {
+    background:#E5493A;
+}
+
+.title{
+    font-size: 16px;
+    text-align: right;
+    height: 68px;
+    line-height: 68px;
+}
+.intro>div>ul>li{
+    line-height: 30px;
+    cursor: pointer;
+}
+
+
+.menu{
+    color: #363636;
+    font-size: 16px;
+    padding-left: 18px;
+    background: url("../Images/sprite.png") no-repeat  -495px -57px;
+}
+.intro>div>ul{
+    font-size: 14px;
+    border-bottom: 1px solid #dddddd;
+    margin-bottom: 16px;
+}
+.red{
+    background-position: -495px -140px;
+}
+.list_arrow{
+    padding-left: 18px;
+    background: url("../Images/sprite.png") no-repeat  -495px -175px;
+}
+
+.list_square{
+    padding-left: 18px;
+    background: url("../Images/sprite.png") no-repeat  -495px -94px;
+}
+.list_none>li{
+    padding-left: 18px;
+}
+
+.fade{
+    height:0;
+    opacity:0;
+    overflow:hidden;
+    transition:all .5s linear;
+}
+
+.in{
+    height: auto;
+    opacity:1;
+}
+
+.bg_red{
+    background-color: #D81011;
+    color: #fff;
+}
+
+
+.text_content{
+    line-height: 24px;
+}
+.left_title{
+    font-size: 16px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+
+}
+.left_title .text_red{
+    color: #D81011;
+    border-bottom: 1px solid #D81011;
+    padding-bottom: 10px;
+}
+.text_content p{
+    margin: 10px 0;
+}
+.black{
+    color: #3D3D3D;
+}
+.text_blue{
+    color:#1057AE;
+}
+.big{
+    font-size: 18px;
+}
+.platform{
+    margin-top: 40px;
+    margin-bottom: 120px;
+}
+.area_img>div{
+    padding: 2px;
+
+}
+.text_box{
+ height: 150px;
+    position: relative;
+
+}
+.text_bottom{
+    font-size: 16px;
+    text-align: right;
+    position: absolute;
+    right: 2px;
+    bottom: 2px;
+
+}
+
+
+
+
+
+.foot_box{
+    padding-top: 35px;
+    padding-bottom: 55px;
+    width: 100%;
+    background-color: #363636;
+
+    border-top:2px solid #E5493A;
+}
+
+.foot_box ul li{
+    padding-left: 15px;
+    line-height: 24px;
+    background: url("../Images/sprite.png") no-repeat  -495px -26px;
+}
+.foot_box ul li:first-child{
+    font-size: 14px;
+    border-bottom: 1px solid #4D4D4D;
+    margin-bottom: 12px;
+    background-position:-495px 8px;
+}
+
+footer{
+    padding: 20px 0;
+    text-align: center;
+    background-color: #363636;
+    border-top: 1px solid #4D4D4D;
+}
